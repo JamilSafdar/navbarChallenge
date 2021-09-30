@@ -70,3 +70,12 @@ li {
     flex-basis: 100%;
   }
 }
+  @media all and (max-width: 320px) {
+    .flex-nav ul {
+      flex-wrap: wrap;
+    }
+
+    li:not(.social) {
+      flex-basis: 100%;
+    }
+}
